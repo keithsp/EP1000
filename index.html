@@ -1,76 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
 <body>
 
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+ 
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+ 
+    <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
 
-<h1 > <b> EP1000 digital fabrication and prototyping <b> </h1>
-<p>
-<p>
-<h2 style="text-align:center"> Hi, welcome to my website! </h1>
-<p>
-<p>
-<h2 style="text-align:center"> this website will serve to record my progress in EP1000 </h2>
-<p>
-<p>
-<h1> Introduction
-</h1>
-
-
-
- <section><h2> Hi, im Keith and im a student in bioengineering in sp. i have an interest in 3D printing and 3D design, which is why i have decided to take this elective module.
-
- <h1 style= "background-color:DodgerBlue;"> Course schedule
-
-</h1>
-
-<div>
-  
-  <pre>
-  <h2>
-
-  <ul>
-   <li> <a href="introduction.html">introduction,fablab safety and tools </a> </li>
-  <pre>
-  <li> <a href="projectmanagement.html">project Management, Web Development and Version Control</a> </li>
-  <pre>
-  <li><a href="#Computer Aided Design">Computer Aided Design</a></li>
-  <pre>
-  <li><a href="#3D Printing and Scanning">3D Printing and Scanning </a></li>
-  <pre>
-  <li><a href="#Computer Controlled Cutting">Computer Controlled Cutting </a></li>
-  <pre>
-  <li><a href="#Embedded Programming">Embedded Programming w/arduino</a></li>
-  <pre>
-  <a href="#">Project</a>
-  </h2>
-  </ul>
+  </div>
 </div>
 
- <p> <a name="introduction,fablab safety and tools"> 
-<h1> introduction,fablab safety and tools </h1>
-<h2> Lesson 1,2,3 </h2>
-<p> During the first lesson, we were introduced to what we would be doing throughout the course,such as </p>
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Module Schedule</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="introduction1.html">introduction,fablab safety and tools</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="projectmanagement1.html">Management, Web Development and Version Control</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="computerdesign1.html">Computer Aided Design</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">3D Printing and Scanning</a>
+   <a class="w3-bar-item w3-button w3-hover-black" href="#">Computer Controlled Cutting</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Embedded Programming w/arduino</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Project</a>
+ 
+</nav>
 
-<br>
-<ul>
-  <p> web design </p>
-  <p> different methods of prototyping </p>
-  <p> 3D printing </p>
-</ul>
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-<p> Honestly, i was pretty excited for the latter 2, but i really hated coding and wasn't very keen on coding a website.</p>
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
 
-<p> However, as you are now reading my website, you can tell that i have changed my views. After watching a few tutorials i found html coding to be fun</p>
-<br>
-</br>
-<h2> Tool use and fablab saftey </h2>
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">EP1000</h1>
+      <p></p>
+    </div>
+   
 
-<p> we were taught of the basic tools we would be using, like philip screwdrivers and glue </p>
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Heading</h1>
+      <p></p>
+    </div>
+    <div class="w3-third w3-container">
+      
+  </div>
 
-<p> As for the fablab saftey briefing, it was all the essential bits we have to know, like not to stick our hands into the powersaw. </p>
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Heading</h1>
+      <p></p>
+    </div>
+   
+  </div>
 
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-black" href="#">1</a>
+      <a class="w3-button w3-hover-black" href="#">2</a>
+      <a class="w3-button w3-hover-black" href="#">3</a>
+      <a class="w3-button w3-hover-black" href="#">4</a>
+      <a class="w3-button w3-hover-black" href="#">5</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
+    </div>
+  </div>
 
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Footer</h4>
+    </div>
 
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
 
 </body>
 </html>
