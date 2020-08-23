@@ -65,25 +65,44 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
   <div class="w3-row">
     <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Hi, welcome to my page!</h1>
-      <p>This page serves as an archive/blog of what i have been (and will be) doing during this elective module</p>
+      <h1 class="w3-text-teal"> Computer controlled cutting </h1>
 
-      <p>The whole point of the website is also to be able to refer back to important infomation learned from previous lessons, so as to be able to get a refresher
-      </p>
+      <H2> Rapid protoyping 2 Electric boogaloo </H2>
 
-      <h1>HOWEVER</h1>
+      <p> So, you want to print faster eh? </p>
 
-      <p>I have decided to use this page as more as a blog, recording down my perspective on learning the specific topics, its individual trials and tribulations, and (hopefully) their resoulutions.
+      <p> Can't wait an hour? </p>
 
-      <p>I think this would serve to be more interesting for others to read as compared to simply just listing down steps on how to complete various activities. </p>
+      <p> Is your Part 2-5 mm thick? </p>
 
-      <p>Its will also be more fun for me to write it in the format of a blog, providing commentary about the process of learning, maybe even vent a little here and there about how tedious some of the steps will be.</p>
+      <p> Even if it isnt, Laser cutting is for you! </p>
 
-      <p>Writing it from my perspective also showcases the possible common problems others might encounter while trying to learn from this module(or extremely rare problems caused by my own incompetence).</p>
+      <p> So how do i lasercut? </p> 
 
-      <p> Anyhow, my deepest wish, is for you, the reader to enjoy reading my experiences, and also learn a thing or two while here!</p>
+      <p> that brings us to our first part </p>
 
-       <h1 class="w3-text-teal"> Happy Hunting! </h1>
+      <H2> Aquiring a DXF file </H2>
+
+      <p> DXF files is the file format that we were taught to use for laser cutting. </p>
+
+      <p> For the purpose of the lesson, we were told to design a box </p>
+
+      <p> I just made a relatively simple one, with walls that were 4 mm thick </p>
+
+      <p> On the left bar you should see the sketches you have done, you click on the one containing the outline profile of your part, if you dont have it, just start a new sketch on a surface and project geometry the profile instead and save the sketch. </p>
+
+      <p> Now, you hover over the sketch name and right click and save it as a DXF file. </p>
+
+      <img src = "dxffile.jpg" height = "500" width = "475">
+
+      <p> After you save the DXF file, it is reccommended that you first check the file using a drawing viewer program. The program i use is LibreCad, there were a few other options, but i find librecad the easiest to use. </p>
+
+      <p> You can use LibreCad to edit the sketch, in my case i just used it to drag and drop multiple drawings into a sketch, and arrange it to preprare for printing. </p>
+
+      <p> But that didnt matter since we didnt print anything we made, the lesson was mostly a demo </p>
+
+
+
 
 
  
